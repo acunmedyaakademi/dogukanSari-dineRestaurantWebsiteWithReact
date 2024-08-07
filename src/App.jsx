@@ -19,7 +19,7 @@ function App() {
 function BgImg() {
   return(
     <div className="bg-img">
-      <img src="/public/images/hero-bg.png" alt="" />
+      <img src="/images/hero-bg.png" alt="" />
     </div>
   )
 }
@@ -27,7 +27,7 @@ function BgImg() {
 function Hero() {
   return(
     <div className="hero">
-      <img src="/public/images/dine-2.svg" alt="dine-logo" />
+      <img src="/images/dine-2.svg" alt="dine-logo" />
       <h1>Enfes yemek 1989'dan beri</h1>
       <p>Güzel kır ortamında mevsimlik menümüzü deneyimleyin. Çiftlik evimizin konforunda en taze ürünleri yiyin.</p>
       <a href="#">MASA REZERVASYONU</a>
@@ -40,12 +40,12 @@ function Categori() {
       <div className="categori">
         <div className="categorie-box">
           <div className="categori-img">
-            <img className="mobil" src="/public/images/enjoy-place.png"/>
-            <img className="tablet" src="/public/images/enjoy-place-tablet.png" alt=""/>
-            <img className="desktop" src="/public/images/enjoy-place-desktop.png" alt=""/>
+            <img className="mobil" src="/images/enjoy-place.png"/>
+            <img className="tablet" src="/images/enjoy-place-tablet.png" alt=""/>
+            <img className="desktop" src="/images/enjoy-place-desktop.png" alt=""/>
           </div>
           <div className="categori-text">
-            <img className="path" src="/public/images/path.png" alt="path"/>
+            <img className="path" src="/images/path.png" alt="path"/>
             <h2>Keyifli bir yer tüm aile için</h2>
             <p>Rahat ortamımız, bizimle yemek yemeyi herkes için harika bir deneyim haline getiriyor. Hatta yemekten önce
               çiftlik turu bile ayarlayabiliriz.</p>
@@ -53,13 +53,13 @@ function Categori() {
         </div>
         <div className="categorie-box row-reverse">
           <div className="categori-img">
-            <img className="mobil" src="/public/images/localy-food.png"/>
-            <img className="tablet" src="/public/images/localy-food-tablet.jpg"/>
-            <img className="desktop" src="/public/images/local-food-desktop.png" alt=""/>
-            <img className="ggorsel-show" src="/public/images/ggorsel-show.png" alt=""/>
+            <img className="mobil" src="/images/localy-food.png"/>
+            <img className="tablet" src="/images/localy-food-tablet.jpg"/>
+            <img className="desktop" src="/images/local-food-desktop.png" alt=""/>
+            <img className="ggorsel-show" src="/images/ggorsel-show.png" alt=""/>
           </div>
           <div className="categori-text">
-            <img src="/public/images/path.png" alt="path"/>
+            <img src="/images/path.png" alt="path"/>
             <h2>En yerel kaynaklı yiyecek</h2>
             <p>Tüm malzemelerimiz doğrudan çiftliğimizden veya yerel balıkçılığımızdan geliyor. Böylece yediğinizden emin
               olabilirsiniz.
@@ -76,7 +76,7 @@ function Menu() {
         <div className="menu-content">
 
         <div className="menu-text-container">
-          <img className="path" src="/public/images/path.png" alt=""/>
+          <img className="path" src="/images/path.png" alt=""/>
 
           <div className="menu-text">
             <h2>Menümüzden birkaç önemli nokta</h2>
@@ -88,8 +88,8 @@ function Menu() {
           <div className="menu-box">
 
             <div className="menu-box-img">
-              <img src="/public/images/Seared-Salmon-Fillet.jpg"/>
-              <img className="menu-path-img" src="/public/images/menu-path.png" alt=""/>
+              <img src="/images/Seared-Salmon-Fillet.jpg"/>
+              <img className="menu-path-img" src="/images/menu-path.png" alt=""/>
             </div>
 
             <div className="menu-box-text">
@@ -102,8 +102,8 @@ function Menu() {
           <div className="menu-box">
 
             <div className="menu-box-img">
-              <img src="/public/images/Rosemary-Filet-Mignon.jpg"/>
-              <img className="menu-path-img" src="/public/images/menu-path.png" alt=""/>
+              <img src="/images/Rosemary-Filet-Mignon.jpg"/>
+              <img className="menu-path-img" src="/images/menu-path.png" alt=""/>
             </div>
 
             <div className="menu-box-text">
@@ -116,8 +116,8 @@ function Menu() {
           <div className="menu-box">
 
             <div className="menu-box-img">
-              <img src="/public/images/Summer-Fruit-Chocolate-Mousse.jpg"/>
-              <img className="menu-path-img" src="/public/images/menu-path.png" alt=""/>
+              <img src="/images/Summer-Fruit-Chocolate-Mousse.jpg"/>
+              <img className="menu-path-img" src="/images/menu-path.png" alt=""/>
             </div>
 
             <div className="menu-box-text">
@@ -148,7 +148,7 @@ function Footer() {
 
       <div className="footer-box">
         <div className="footer-logo">
-          <img src="/public/images/dine-2.svg" alt="dine-logo"/>
+          <img src="/images/dine-2.svg" alt="dine-logo"/>
         </div>
 
         <div className="footer-location">
